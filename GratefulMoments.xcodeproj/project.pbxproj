@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6252EDF52F015FF00070511B /* MomentEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6252EDF42F015FF00070511B /* MomentEntryView.swift */; };
 		62DE51142ECC5B87008A7DEF /* GratefulMomentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE51132ECC5B87008A7DEF /* GratefulMomentsApp.swift */; };
 		62DE51162ECC5B87008A7DEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE51152ECC5B87008A7DEF /* ContentView.swift */; };
 		62DE51182ECC5B8B008A7DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DE51172ECC5B8B008A7DEF /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6252EDF42F015FF00070511B /* MomentEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentEntryView.swift; sourceTree = "<group>"; };
 		62DE51102ECC5B87008A7DEF /* GratefulMoments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GratefulMoments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DE51132ECC5B87008A7DEF /* GratefulMomentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratefulMomentsApp.swift; sourceTree = "<group>"; };
 		62DE51152ECC5B87008A7DEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6252EDF32F015FA80070511B /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				6252EDF42F015FF00070511B /* MomentEntryView.swift */,
+			);
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		62C4C25E2F015F43006ED52E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		62C4C25F2F015F51006ED52E /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		62C4C2602F015F5B006ED52E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		62C4C2612F015F63006ED52E /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				6252EDF32F015FA80070511B /* Moments */,
+				62C4C2622F015F6C006ED52E /* Achievements */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		62C4C2622F015F6C006ED52E /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
 		62DE51072ECC5B87008A7DEF = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +98,10 @@
 		62DE51122ECC5B87008A7DEF /* GratefulMoments */ = {
 			isa = PBXGroup;
 			children = (
+				62C4C2612F015F63006ED52E /* Tabs */,
+				62C4C2602F015F5B006ED52E /* Models */,
+				62C4C25F2F015F51006ED52E /* Logic */,
+				62C4C25E2F015F43006ED52E /* Custom Views */,
 				62DE51132ECC5B87008A7DEF /* GratefulMomentsApp.swift */,
 				62DE51152ECC5B87008A7DEF /* ContentView.swift */,
 				62DE51172ECC5B8B008A7DEF /* Assets.xcassets */,
@@ -137,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6252EDF52F015FF00070511B /* MomentEntryView.swift in Sources */,
 				62DE51162ECC5B87008A7DEF /* ContentView.swift in Sources */,
 				62DE51142ECC5B87008A7DEF /* GratefulMomentsApp.swift in Sources */,
 			);
