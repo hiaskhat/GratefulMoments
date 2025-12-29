@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6252EDF52F015FF00070511B /* MomentEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6252EDF42F015FF00070511B /* MomentEntryView.swift */; };
+		628B83EF2F0257A3006A0EA2 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B83EE2F0257A3006A0EA2 /* Moment.swift */; };
+		628B83F12F025B67006A0EA2 /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B83F02F025B67006A0EA2 /* DataContainer.swift */; };
 		62DE51142ECC5B87008A7DEF /* GratefulMomentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE51132ECC5B87008A7DEF /* GratefulMomentsApp.swift */; };
 		62DE51162ECC5B87008A7DEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE51152ECC5B87008A7DEF /* ContentView.swift */; };
 		62DE51182ECC5B8B008A7DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DE51172ECC5B8B008A7DEF /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		6252EDF42F015FF00070511B /* MomentEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentEntryView.swift; sourceTree = "<group>"; };
+		628B83EE2F0257A3006A0EA2 /* Moment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
+		628B83F02F025B67006A0EA2 /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
 		62DE51102ECC5B87008A7DEF /* GratefulMoments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GratefulMoments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DE51132ECC5B87008A7DEF /* GratefulMomentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratefulMomentsApp.swift; sourceTree = "<group>"; };
 		62DE51152ECC5B87008A7DEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 		62C4C25F2F015F51006ED52E /* Logic */ = {
 			isa = PBXGroup;
 			children = (
+				628B83F02F025B67006A0EA2 /* DataContainer.swift */,
 			);
 			path = Logic;
 			sourceTree = "<group>";
@@ -59,6 +64,7 @@
 		62C4C2602F015F5B006ED52E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				628B83EE2F0257A3006A0EA2 /* Moment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,8 +195,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6252EDF52F015FF00070511B /* MomentEntryView.swift in Sources */,
+				628B83F12F025B67006A0EA2 /* DataContainer.swift in Sources */,
 				62DE51162ECC5B87008A7DEF /* ContentView.swift in Sources */,
 				62DE51142ECC5B87008A7DEF /* GratefulMomentsApp.swift in Sources */,
+				628B83EF2F0257A3006A0EA2 /* Moment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
