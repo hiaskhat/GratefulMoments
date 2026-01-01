@@ -56,6 +56,7 @@ private let sampleContainer = DataContainer(includeSampleMoments: true)
 
 extension View {
     func sampleDataContainer() -> some View {
+        
         self
             .environment(sampleContainer)
             .modelContainer(sampleContainer.modelContainer)

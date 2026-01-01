@@ -60,7 +60,13 @@ extension Moment {
         Moment(
             title: "Rock on!",
             note: "Went to a great concert with Blair 🎶",
-            imageData: UIImage(named: "Concert")?.pngData()
+            imageData: {
+                if let img = UIImage(named: "Concert") {
+                    return img.pngData()
+                } else {
+                    return UIImage(systemName: "photo")?.pngData()
+                }
+            }()
         )
     ]
 }

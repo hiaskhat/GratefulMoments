@@ -8,9 +8,9 @@
 import SwiftUI
 import SwiftData
 
+@MainActor
 @main
 struct GratefulMomentsApp: App {
-    @MainActor
     let dataContainer = DataContainer()
     
     var body: some Scene {
