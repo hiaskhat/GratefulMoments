@@ -16,6 +16,8 @@
 		62DE51162ECC5B87008A7DEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE51152ECC5B87008A7DEF /* ContentView.swift */; };
 		62DE51182ECC5B8B008A7DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DE51172ECC5B8B008A7DEF /* Assets.xcassets */; };
 		62DE511B2ECC5B8B008A7DEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DE511A2ECC5B8B008A7DEF /* Preview Assets.xcassets */; };
+		62F3F4E22F06A31900296DE9 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3F4E12F06A31900296DE9 /* Hexagon.swift */; };
+		62F3F4E42F06B45C00296DE9 /* HexagonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3F4E32F06B45C00296DE9 /* HexagonLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		62DE51152ECC5B87008A7DEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62DE51172ECC5B8B008A7DEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62DE511A2ECC5B8B008A7DEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62F3F4E12F06A31900296DE9 /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
+		62F3F4E32F06B45C00296DE9 /* HexagonLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		62C4C25E2F015F43006ED52E /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				62F3F4E12F06A31900296DE9 /* Hexagon.swift */,
+				62F3F4E32F06B45C00296DE9 /* HexagonLayout.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -202,10 +208,12 @@
 			files = (
 				6252EDF52F015FF00070511B /* MomentEntryView.swift in Sources */,
 				628B83F12F025B67006A0EA2 /* DataContainer.swift in Sources */,
+				62F3F4E22F06A31900296DE9 /* Hexagon.swift in Sources */,
 				62DE51162ECC5B87008A7DEF /* ContentView.swift in Sources */,
 				62DE51142ECC5B87008A7DEF /* GratefulMomentsApp.swift in Sources */,
 				628B83F32F040958006A0EA2 /* MomentsView.swift in Sources */,
 				628B83F52F04267E006A0EA2 /* MomentDetailView.swift in Sources */,
+				62F3F4E42F06B45C00296DE9 /* HexagonLayout.swift in Sources */,
 				628B83EF2F0257A3006A0EA2 /* Moment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
