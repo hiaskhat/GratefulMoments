@@ -25,18 +25,18 @@ struct MomentEntryView: View {
                 contentStack
             }
             .scrollDismissesKeyboard(.interactively)
-            .navigationTitle("Grateful for")
+            .navigationTitle("Благодарность за")
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Cancel", systemImage: "xmark") {
+                    Button("Отмена", systemImage: "xmark") {
                         if title.isEmpty, note.isEmpty, imageData == nil {
                             dismiss()
                         } else {
                             isShowingCancelConfirmation = true
                         }
                     }
-                    .confirmationDialog("Discard moment", isPresented: $isShowingCancelConfirmation) {
-                        Button("Discard moment", role: .destructive) {
+                    .confirmationDialog("Удалить Момент", isPresented: $isShowingCancelConfirmation) {
+                        Button("Удалить Момент", role: .destructive) {
                             dismiss()
                         }
                     }
@@ -91,13 +91,13 @@ struct MomentEntryView: View {
         VStack(alignment: .leading) {
             //textfield
             TextField(text: $title) {
-                Text("Title (Required)")
+                Text("Название (Обязательно)")
             }
             .font(.title.bold())
             .padding(.top, 48)
             Divider()
             //textfield with as many lines of text as user can type in
-            TextField("Log your small wins", text: $note, axis: .vertical)
+            TextField("Опиши свои маленькие победы", text: $note, axis: .vertical)
                 .multilineTextAlignment(.leading)
                 .lineLimit(5...Int.max)
             

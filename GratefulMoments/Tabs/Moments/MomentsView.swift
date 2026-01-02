@@ -24,9 +24,9 @@ struct MomentsView: View {
             .overlay {
                 if moments.isEmpty {
                     ContentUnavailableView {
-                        Label("No moments yet!", systemImage: "exclamationmark.circle.fill")
+                        Label("Ещё нет моментов!", systemImage: "exclamationmark.circle.fill")
                     } description: {
-                        Text("Post a note or photo to startfilling this space with gratitude.")
+                        Text("Добавь заметку или фото чтобы наполнить благодарностью.")
                     }
                 }
             }
@@ -46,7 +46,7 @@ struct MomentsView: View {
 //            .defaultScrollAnchor(.bottom, for: .initialOffset)
 //            .defaultScrollAnchor(.bottom, for: .sizeChanges)
             .defaultScrollAnchor(.top)
-            .navigationTitle("Grateful Moments")
+            .navigationTitle("Моменты благодарности")
         }
     }
     

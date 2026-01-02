@@ -27,14 +27,14 @@ struct MomentDetailView: View {
                 } label: {
                     Image(systemName: "trash")
                 }
-                .confirmationDialog("Delete Moment", isPresented: $showConfirmation) {
-                    Button("Delete Moment", role: .destructive) {
+                .confirmationDialog("Удалить Момент", isPresented: $showConfirmation) {
+                    Button("Удалить Момент", role: .destructive) {
                         dataContainer.context.delete(moment)
                         try? dataContainer.context.save()
                         dismiss()
                     }
                 } message: {
-                    Text("The moment will be permanently deleted. Earned badges won't be removed.")
+                    Text("Момент будет полностью удалён. Заработанные бэджи не удалятся.")
                 }
             }
         }

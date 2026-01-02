@@ -41,25 +41,25 @@ extension Moment {
     static let sampleData = [
         Moment(
             title: "🍅🥳",
-            note: "Picked my first homegrown tomato!"
+            note: "Первый помидор, выращенный дома!"
         ),
         Moment(
-            title: "Passed the test!",
-            note: "The chem exam was tough, but I think I did well 🙌 I’m so glad I reached out to Guillermo and Lee for a study session. It really helped!",
+            title: "Сдала тест!",
+            note: "Экзамен по химии был сложный, но думаю я сдала его хорошо. Я так рада что смогла подготовиться к нему вместе с Гильермо и Ли. Это реально помогло!",
             imageData: UIImage(named: "Study")?.pngData()
         ),
         Moment(
-            title: "Down time",
-            note: "So grateful for a relaxing evening after a busy week.",
+            title: "Отдых",
+            note: "Так благодарна за этот вечер после тяжелой рабочей недели.",
             imageData: UIImage(named: "Relax")?.pngData()
         ),
         Moment(
-            title: "Family ❤️",
+            title: "Семья ❤️",
             note: ""
         ),
         Moment(
-            title: "Rock on!",
-            note: "Went to a great concert with Blair 🎶",
+            title: "Круто!",
+            note: "Ходил на крутой концерт с Блэр 🎶",
             imageData: {
                 if let img = UIImage(named: "Concert") {
                     return img.pngData()
