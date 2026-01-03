@@ -19,6 +19,8 @@
 		62F3F4E22F06A31900296DE9 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3F4E12F06A31900296DE9 /* Hexagon.swift */; };
 		62F3F4E42F06B45C00296DE9 /* HexagonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3F4E32F06B45C00296DE9 /* HexagonLayout.swift */; };
 		62F3F4E62F06B6B300296DE9 /* MomentHexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3F4E52F06B6B300296DE9 /* MomentHexagonView.swift */; };
+		62F5A1652F07FF52006ADC95 /* BadgeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5A1642F07FF52006ADC95 /* BadgeDetails.swift */; };
+		62F5A1672F08EBD2006ADC95 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5A1662F08EBD2006ADC95 /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		62F3F4E12F06A31900296DE9 /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
 		62F3F4E32F06B45C00296DE9 /* HexagonLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonLayout.swift; sourceTree = "<group>"; };
 		62F3F4E52F06B6B300296DE9 /* MomentHexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentHexagonView.swift; sourceTree = "<group>"; };
+		62F5A1642F07FF52006ADC95 /* BadgeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeDetails.swift; sourceTree = "<group>"; };
+		62F5A1662F08EBD2006ADC95 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				628B83EE2F0257A3006A0EA2 /* Moment.swift */,
+				62F5A1642F07FF52006ADC95 /* BadgeDetails.swift */,
+				62F5A1662F08EBD2006ADC95 /* Badge.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,9 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6252EDF52F015FF00070511B /* MomentEntryView.swift in Sources */,
+				62F5A1672F08EBD2006ADC95 /* Badge.swift in Sources */,
 				628B83F12F025B67006A0EA2 /* DataContainer.swift in Sources */,
 				62F3F4E22F06A31900296DE9 /* Hexagon.swift in Sources */,
 				62DE51162ECC5B87008A7DEF /* ContentView.swift in Sources */,
+				62F5A1652F07FF52006ADC95 /* BadgeDetails.swift in Sources */,
 				62DE51142ECC5B87008A7DEF /* GratefulMomentsApp.swift in Sources */,
 				62F3F4E62F06B6B300296DE9 /* MomentHexagonView.swift in Sources */,
 				628B83F32F040958006A0EA2 /* MomentsView.swift in Sources */,
