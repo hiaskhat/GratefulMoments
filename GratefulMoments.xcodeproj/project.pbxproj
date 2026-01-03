@@ -21,6 +21,7 @@
 		62F3F4E62F06B6B300296DE9 /* MomentHexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3F4E52F06B6B300296DE9 /* MomentHexagonView.swift */; };
 		62F5A1652F07FF52006ADC95 /* BadgeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5A1642F07FF52006ADC95 /* BadgeDetails.swift */; };
 		62F5A1672F08EBD2006ADC95 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5A1662F08EBD2006ADC95 /* Badge.swift */; };
+		62F5A1692F08EEEB006ADC95 /* BadgeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5A1682F08EEEB006ADC95 /* BadgeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		62F3F4E52F06B6B300296DE9 /* MomentHexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentHexagonView.swift; sourceTree = "<group>"; };
 		62F5A1642F07FF52006ADC95 /* BadgeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeDetails.swift; sourceTree = "<group>"; };
 		62F5A1662F08EBD2006ADC95 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		62F5A1682F08EEEB006ADC95 /* BadgeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		62C4C2622F015F6C006ED52E /* Achievements */ = {
 			isa = PBXGroup;
 			children = (
+				62F5A1682F08EEEB006ADC95 /* BadgeDetailView.swift */,
 			);
 			path = Achievements;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				6252EDF52F015FF00070511B /* MomentEntryView.swift in Sources */,
 				62F5A1672F08EBD2006ADC95 /* Badge.swift in Sources */,
+				62F5A1692F08EEEB006ADC95 /* BadgeDetailView.swift in Sources */,
 				628B83F12F025B67006A0EA2 /* DataContainer.swift in Sources */,
 				62F3F4E22F06A31900296DE9 /* Hexagon.swift in Sources */,
 				62DE51162ECC5B87008A7DEF /* ContentView.swift in Sources */,
