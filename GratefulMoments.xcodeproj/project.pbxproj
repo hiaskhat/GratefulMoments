@@ -22,6 +22,7 @@
 		62F5A1652F07FF52006ADC95 /* BadgeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5A1642F07FF52006ADC95 /* BadgeDetails.swift */; };
 		62F5A1672F08EBD2006ADC95 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5A1662F08EBD2006ADC95 /* Badge.swift */; };
 		62F5A1692F08EEEB006ADC95 /* BadgeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5A1682F08EEEB006ADC95 /* BadgeDetailView.swift */; };
+		62F5A16B2F090D45006ADC95 /* BadgeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5A16A2F090D45006ADC95 /* BadgeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		62F5A1642F07FF52006ADC95 /* BadgeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeDetails.swift; sourceTree = "<group>"; };
 		62F5A1662F08EBD2006ADC95 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		62F5A1682F08EEEB006ADC95 /* BadgeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeDetailView.swift; sourceTree = "<group>"; };
+		62F5A16A2F090D45006ADC95 /* BadgeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				628B83EE2F0257A3006A0EA2 /* Moment.swift */,
 				62F5A1642F07FF52006ADC95 /* BadgeDetails.swift */,
 				62F5A1662F08EBD2006ADC95 /* Badge.swift */,
+				62F5A16A2F090D45006ADC95 /* BadgeManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				62F3F4E22F06A31900296DE9 /* Hexagon.swift in Sources */,
 				62DE51162ECC5B87008A7DEF /* ContentView.swift in Sources */,
 				62F5A1652F07FF52006ADC95 /* BadgeDetails.swift in Sources */,
+				62F5A16B2F090D45006ADC95 /* BadgeManager.swift in Sources */,
 				62DE51142ECC5B87008A7DEF /* GratefulMomentsApp.swift in Sources */,
 				62F3F4E62F06B6B300296DE9 /* MomentHexagonView.swift in Sources */,
 				628B83F32F040958006A0EA2 /* MomentsView.swift in Sources */,
