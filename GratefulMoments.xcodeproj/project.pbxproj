@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6245DB232F0E195100110439 /* HexagonAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245DB222F0E195100110439 /* HexagonAccessoryView.swift */; };
 		6249F34F2F0D692D0076574F /* LockedBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249F34E2F0D692D0076574F /* LockedBadgeView.swift */; };
 		6249F3512F0D6BF00076574F /* UnlockedBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249F3502F0D6BF00076574F /* UnlockedBadgeView.swift */; };
 		6252EDF52F015FF00070511B /* MomentEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6252EDF42F015FF00070511B /* MomentEntryView.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6245DB222F0E195100110439 /* HexagonAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonAccessoryView.swift; sourceTree = "<group>"; };
 		6249F34E2F0D692D0076574F /* LockedBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockedBadgeView.swift; sourceTree = "<group>"; };
 		6249F3502F0D6BF00076574F /* UnlockedBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockedBadgeView.swift; sourceTree = "<group>"; };
 		6252EDF42F015FF00070511B /* MomentEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentEntryView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				62F3F4E12F06A31900296DE9 /* Hexagon.swift */,
 				62F3F4E32F06B45C00296DE9 /* HexagonLayout.swift */,
+				6245DB222F0E195100110439 /* HexagonAccessoryView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				62DE51142ECC5B87008A7DEF /* GratefulMomentsApp.swift in Sources */,
 				62F3F4E62F06B6B300296DE9 /* MomentHexagonView.swift in Sources */,
 				628B83F32F040958006A0EA2 /* MomentsView.swift in Sources */,
+				6245DB232F0E195100110439 /* HexagonAccessoryView.swift in Sources */,
 				628B83F52F04267E006A0EA2 /* MomentDetailView.swift in Sources */,
 				62F3F4E42F06B45C00296DE9 /* HexagonLayout.swift in Sources */,
 				628B83EF2F0257A3006A0EA2 /* Moment.swift in Sources */,
