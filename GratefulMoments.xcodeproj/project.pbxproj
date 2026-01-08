@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		6245DB232F0E195100110439 /* HexagonAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245DB222F0E195100110439 /* HexagonAccessoryView.swift */; };
 		6245DB252F0ECCBA00110439 /* StreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245DB242F0ECCBA00110439 /* StreakView.swift */; };
 		6245DB272F0ECE5B00110439 /* StreakCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245DB262F0ECE5B00110439 /* StreakCalculator.swift */; };
 		6249F34F2F0D692D0076574F /* LockedBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249F34E2F0D692D0076574F /* LockedBadgeView.swift */; };
 		6249F3512F0D6BF00076574F /* UnlockedBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249F3502F0D6BF00076574F /* UnlockedBadgeView.swift */; };
+=======
+>>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 =======
 >>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 =======
@@ -40,11 +43,14 @@
 /* Begin PBXFileReference section */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		6245DB222F0E195100110439 /* HexagonAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonAccessoryView.swift; sourceTree = "<group>"; };
 		6245DB242F0ECCBA00110439 /* StreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakView.swift; sourceTree = "<group>"; };
 		6245DB262F0ECE5B00110439 /* StreakCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCalculator.swift; sourceTree = "<group>"; };
 		6249F34E2F0D692D0076574F /* LockedBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockedBadgeView.swift; sourceTree = "<group>"; };
 		6249F3502F0D6BF00076574F /* UnlockedBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockedBadgeView.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 =======
 >>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 =======
@@ -137,8 +143,11 @@
 				62F5A16C2F0C1234006ADC95 /* AchievementsView.swift */,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				6249F34E2F0D692D0076574F /* LockedBadgeView.swift */,
 				6245DB242F0ECCBA00110439 /* StreakView.swift */,
+=======
+>>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 =======
 >>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 =======
@@ -258,8 +267,11 @@
 			files = (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				6245DB252F0ECCBA00110439 /* StreakView.swift in Sources */,
 				6249F34F2F0D692D0076574F /* LockedBadgeView.swift in Sources */,
+=======
+>>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 =======
 >>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 =======

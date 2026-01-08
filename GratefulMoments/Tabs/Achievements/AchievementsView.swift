@@ -30,6 +30,7 @@ struct AchievementsView: View {
     private var contentStack: some View {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         VStack(alignment: .leading) {
             StreakView(numberOfDays: StreakCalculator().calculateStreak(for: moments))
                 .frame(maxWidth: .infinity)
@@ -47,11 +48,16 @@ struct AchievementsView: View {
 =======
 =======
 >>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
+=======
+>>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
         VStack {
             header("your Badges")
             ForEach(sortedUnlockedBadges) { badge in
                 Text(badge.details.title)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
+=======
 >>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 =======
 >>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
