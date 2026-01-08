@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		6245DB232F0E195100110439 /* HexagonAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245DB222F0E195100110439 /* HexagonAccessoryView.swift */; };
 		6245DB252F0ECCBA00110439 /* StreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245DB242F0ECCBA00110439 /* StreakView.swift */; };
 		6245DB272F0ECE5B00110439 /* StreakCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245DB262F0ECE5B00110439 /* StreakCalculator.swift */; };
 		6249F34F2F0D692D0076574F /* LockedBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249F34E2F0D692D0076574F /* LockedBadgeView.swift */; };
 		6249F3512F0D6BF00076574F /* UnlockedBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249F3502F0D6BF00076574F /* UnlockedBadgeView.swift */; };
+=======
+>>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 		6252EDF52F015FF00070511B /* MomentEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6252EDF42F015FF00070511B /* MomentEntryView.swift */; };
 		628B83EF2F0257A3006A0EA2 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B83EE2F0257A3006A0EA2 /* Moment.swift */; };
 		628B83F12F025B67006A0EA2 /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B83F02F025B67006A0EA2 /* DataContainer.swift */; };
@@ -32,11 +35,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		6245DB222F0E195100110439 /* HexagonAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonAccessoryView.swift; sourceTree = "<group>"; };
 		6245DB242F0ECCBA00110439 /* StreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakView.swift; sourceTree = "<group>"; };
 		6245DB262F0ECE5B00110439 /* StreakCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCalculator.swift; sourceTree = "<group>"; };
 		6249F34E2F0D692D0076574F /* LockedBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockedBadgeView.swift; sourceTree = "<group>"; };
 		6249F3502F0D6BF00076574F /* UnlockedBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockedBadgeView.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 		6252EDF42F015FF00070511B /* MomentEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentEntryView.swift; sourceTree = "<group>"; };
 		628B83EE2F0257A3006A0EA2 /* Moment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
 		628B83F02F025B67006A0EA2 /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
@@ -122,10 +128,12 @@
 			isa = PBXGroup;
 			children = (
 				62F5A1682F08EEEB006ADC95 /* BadgeDetailView.swift */,
-				6249F3502F0D6BF00076574F /* UnlockedBadgeView.swift */,
 				62F5A16C2F0C1234006ADC95 /* AchievementsView.swift */,
+<<<<<<< HEAD
 				6249F34E2F0D692D0076574F /* LockedBadgeView.swift */,
 				6245DB242F0ECCBA00110439 /* StreakView.swift */,
+=======
+>>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 			);
 			path = Achievements;
 			sourceTree = "<group>";
@@ -239,8 +247,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				6245DB252F0ECCBA00110439 /* StreakView.swift in Sources */,
 				6249F34F2F0D692D0076574F /* LockedBadgeView.swift in Sources */,
+=======
+>>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
 				6252EDF52F015FF00070511B /* MomentEntryView.swift in Sources */,
 				62F5A1672F08EBD2006ADC95 /* Badge.swift in Sources */,
 				62F5A1692F08EEEB006ADC95 /* BadgeDetailView.swift in Sources */,
@@ -250,7 +261,6 @@
 				62F5A1652F07FF52006ADC95 /* BadgeDetails.swift in Sources */,
 				62F5A16D2F0C1234006ADC95 /* AchievementsView.swift in Sources */,
 				62F5A16B2F090D45006ADC95 /* BadgeManager.swift in Sources */,
-				6249F3512F0D6BF00076574F /* UnlockedBadgeView.swift in Sources */,
 				62DE51142ECC5B87008A7DEF /* GratefulMomentsApp.swift in Sources */,
 				6245DB272F0ECE5B00110439 /* StreakCalculator.swift in Sources */,
 				62F3F4E62F06B6B300296DE9 /* MomentHexagonView.swift in Sources */,

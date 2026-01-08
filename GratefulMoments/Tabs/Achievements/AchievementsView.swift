@@ -28,6 +28,7 @@ struct AchievementsView: View {
     }
     
     private var contentStack: some View {
+<<<<<<< HEAD
         VStack(alignment: .leading) {
             StreakView(numberOfDays: StreakCalculator().calculateStreak(for: moments))
                 .frame(maxWidth: .infinity)
@@ -42,12 +43,16 @@ struct AchievementsView: View {
                 }
                 .scrollClipDisabled()
                 .scrollIndicators(.hidden)
+=======
+        VStack {
+            header("your Badges")
+            ForEach(sortedUnlockedBadges) { badge in
+                Text(badge.details.title)
+>>>>>>> parent of 7a401a6 (add LockedBadgeView and UnlockedBadgeView)
             }
-            if !lockedBadges.isEmpty {
-                header("Заблокированные")
-                ForEach(sortedLockedBadges) { badge in
-                    LockedBadgeView(badge: badge)
-                }
+            header("Locked Badges")
+            ForEach(sortedLockedBadges) { badge in
+                Text(badge.details.title)
             }
         }
         .padding()
