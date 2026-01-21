@@ -23,7 +23,7 @@ struct AchievementsView: View {
             ScrollView {
                 contentStack
             }
-            .navigationTitle("Достижения")
+            .navigationTitle("Achievements")
         }
     }
     

@@ -12,11 +12,11 @@ struct ContentView: View {
         TabView {
             MomentsView()
                 .tabItem {
-                    Label("Моменты", image: "MomentsTab")
+                    Label("Moments", image: "MomentsTab")
                 }
             AchievementsView()
                 .tabItem {
-                    Label("Достижения", systemImage: "medal.fill")
+                    Label("Achievements", systemImage: "medal.fill")
                 }
         }
     }
